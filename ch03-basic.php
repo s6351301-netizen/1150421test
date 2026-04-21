@@ -29,9 +29,11 @@ switch($level){
 }
 ?>
 
-</br><p>方法二,將A與B都顯示A結果會連著B,即將A下面的break註解</p></br>
+</br>
+<p style="color: blue;">方法二,將A與B都顯示A結果會連著B,
+    即將A下面的break註解</p></br>
 <?php
-$level="B";
+$level="A";
 switch($level){
     case "A":
         echo "表現優良，請繼續保持";
