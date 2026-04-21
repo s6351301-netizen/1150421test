@@ -37,7 +37,7 @@ switch($level){
         echo "表現優良，請繼續保持";
    // break;
     case "B":
-        echo "值得肯定，還有進步空間";
+        echo "值得肯定，還有進步空間</br>";
      // break;
     case "C":
         echo "需要更多的練習";
